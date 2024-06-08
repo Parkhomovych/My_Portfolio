@@ -18,7 +18,7 @@ export default function Home() {
             </p>
             <div>
               <Button>
-                <span>DownLoad CV</span>
+                <span className="">DownLoad CV</span>
                 <FiDownload className="text-xl" />
               </Button>
             </div>
