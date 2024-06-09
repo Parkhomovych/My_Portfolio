@@ -244,12 +244,12 @@ export default function ResumePage() {
                     {skills.description}
                   </p>
                 </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px]">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-5 xl:gap-[30px]">
                   {skills.skillsList.map((i, index) => (
                     <li key={index}>
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
-                          <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex items-center justify-center group">
+                          <TooltipTrigger className=" w-full h-[150px] bg-[#232329] rounded-xl flex items-center justify-center group">
                             <div className="text-6xl group-hover:text-accent transition-all duration-300">
                               {i.icon}
                             </div>

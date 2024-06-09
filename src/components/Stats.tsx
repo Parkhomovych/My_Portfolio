@@ -5,14 +5,14 @@ import CountUp from "react-countup";
 const stats = [
   {
     num: 1,
-    text: "Years of experience",
+    text: "Year of experience",
   },
   {
     num: 9,
     text: "Projects completed",
   },
   {
-    num: 7,
+    num: 8,
     text: "Technologies mastered",
   },
   {
@@ -20,6 +20,7 @@ const stats = [
     text: "Code commits",
   },
 ];
+
 export const Stats: FC = () => {
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
