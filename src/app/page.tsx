@@ -3,7 +3,7 @@ import { Social } from "@/components/Social";
 import { Stats } from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
-export default function Home() {
+export default function HomePage() {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">

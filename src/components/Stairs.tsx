@@ -1,6 +1,8 @@
 "use client";
 import { FC } from "react";
 import { motion } from "framer-motion";
+import { Logo } from "./Logo";
+
 const stairAnimation = {
   initial: {
     top: "0%",
@@ -34,8 +36,8 @@ export const Stairs: FC = () => {
               ease: "easeInOut",
               delay: reverseIndex(index) * 0.1,
             }}
-            className="h-full w-full bg-white relative"
-          />
+            className="h-full w-full  bg-accent/60 relative r"
+          ></motion.div>
         );
       })}
     </>
